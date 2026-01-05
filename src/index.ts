@@ -9,19 +9,9 @@ dayjs.extend(utc);
 dayjs.extend(timezone);
 
 // the time window is assumed to be set in IST
-const tradingWindowStart = dayjs()
-  .set("year", 2025)
-  .set("month", 11)
-  .set("day", 26)
-  .set("hour", 10)
-  .set("minute", 0)
+const tradingWindowStart = dayjs.tz("2026-01-05T14:45:00", "Asia/Kolkata")
   .format("YYYY-MM-DDTHH:mm:ss");
-const tradingWindowEnd = dayjs()
-  .set("year", 2025)
-  .set("month", 11)
-  .set("day", 26)
-  .set("hour", 10)
-  .set("minute", 10)
+const tradingWindowEnd = dayjs.tz("2026-01-05T14:50:00", "Asia/Kolkata")
   .format("YYYY-MM-DDTHH:mm:ss");
 
 console.log({ tradingWindowStart });
