@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       '@ganaka/sdk':
-        specifier: ^1.0.0
-        version: 1.0.0(dotenv@17.2.3)
+        specifier: ^1.0.2
+        version: 1.0.2(dotenv@17.2.3)
       axios:
         specifier: ^1.13.2
         version: 1.13.2
@@ -208,8 +208,8 @@ packages:
     cpu: [x64]
     os: [win32]
 
-  '@ganaka/sdk@1.0.0':
-    resolution: {integrity: sha512-wys8K5j5JMcykxoHkC5uHw2EFkKBfVGvJ61pde8+b0lvdsoqPizWW8PnDYAyjwMjuezEWZ1K0Ck2SVBy8xXHig==}
+  '@ganaka/sdk@1.0.2':
+    resolution: {integrity: sha512-Mv0grWwBKPy4H+4PmiXTZK2/I4FW4si9MWudysMS32s9USRRC+Xfw0fhLWZjiSmszQxXAe94MKdaEku2Qzsx4Q==}
     engines: {node: '>=18.0.0'}
     peerDependencies:
       dotenv: ^16.4.5
@@ -686,8 +686,8 @@ packages:
   undici-types@7.16.0:
     resolution: {integrity: sha512-Zz+aZWSj8LE6zoxD+xrjh4VfkIG8Ya6LvYkZqtUQGJPZjYl53ypCaUwWqo7eI0x66KBGeRo+mlBEkMSeSZ38Nw==}
 
-  undici@7.16.0:
-    resolution: {integrity: sha512-QEg3HPMll0o3t2ourKwOeUAZ159Kn9mx5pnzHRQO8+Wixmh88YdZRiIwat0iNzNNXn0yoEtXJqFpyW7eM8BV7g==}
+  undici@7.17.0:
+    resolution: {integrity: sha512-JMcHKwIp6E5xjyHQr4mK5xcvo6YiMGkE2Pwo06GFLGVh/U22jjFIVG30KiZhD3/yNEgPJKL0iWkwBiG0GF0Ccw==}
     engines: {node: '>=20.18.1'}
 
   v8-compile-cache-lib@3.0.1:
@@ -796,7 +796,7 @@ snapshots:
   '@esbuild/win32-x64@0.27.2':
     optional: true
 
-  '@ganaka/sdk@1.0.0(dotenv@17.2.3)':
+  '@ganaka/sdk@1.0.2(dotenv@17.2.3)':
     dependencies:
       axios: 1.13.2
       cheerio: 1.1.2
@@ -900,7 +900,7 @@ snapshots:
       parse5: 7.3.0
       parse5-htmlparser2-tree-adapter: 7.1.0
       parse5-parser-stream: 7.1.2
-      undici: 7.16.0
+      undici: 7.17.0
       whatwg-mimetype: 4.0.0
 
   chokidar@3.6.0:
@@ -1312,7 +1312,7 @@ snapshots:
 
   undici-types@7.16.0: {}
 
-  undici@7.16.0: {}
+  undici@7.17.0: {}
 
   v8-compile-cache-lib@3.0.1: {}
 
