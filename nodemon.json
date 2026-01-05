@@ -1,0 +1,6 @@
+{
+  "watch": ["src"],
+  "ext": "ts",
+  "exec": "pnpm run build && node dist/index.js",
+  "ignore": ["src/**/*.spec.ts", "node_modules", "**/dist/**", "**/packages/**"]
+}
