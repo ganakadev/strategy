@@ -57,8 +57,8 @@ async function main() {
       return;
     },
     intervalMinutes: 1,
-    startTime: dayjs.tz(tradingWindowStart, "Asia/Kolkata").toDate(),
-    endTime: dayjs.tz(tradingWindowEnd, "Asia/Kolkata").toDate(),
+    startTime: tradingWindowStart,
+    endTime: tradingWindowEnd,
     deleteRunAfterCompletion: true,
   });
 }
