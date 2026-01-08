@@ -9,8 +9,8 @@ dayjs.extend(utc);
 dayjs.extend(timezone);
 
 // the time window is assumed to be set in IST
-const tradingWindowStart = "2026-01-02T10:00:00"
-const tradingWindowEnd = "2026-01-02T12:00:00"
+const tradingWindowStart = "2026-01-02T10:00:00";
+const tradingWindowEnd = "2026-01-02T12:00:00";
 
 console.log({ tradingWindowStart });
 console.log({ tradingWindowEnd });
