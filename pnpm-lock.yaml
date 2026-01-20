@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       '@ganaka/sdk':
-        specifier: ^1.2.0
-        version: 1.2.0(dotenv@17.2.3)
+        specifier: ^1.5.0
+        version: 1.5.0(dotenv@17.2.3)
       axios:
         specifier: ^1.13.2
         version: 1.13.2
@@ -208,8 +208,8 @@ packages:
     cpu: [x64]
     os: [win32]
 
-  '@ganaka/sdk@1.2.0':
-    resolution: {integrity: sha512-zYdSPKxtmjuUXS7REr33QXMzZWMYK75EpMM6MOUWTtpzVco4KWHLIgkYxf2J4VGZ3v5/40v9Sv4cbvLLW346Jg==}
+  '@ganaka/sdk@1.5.0':
+    resolution: {integrity: sha512-C6k8e2K0ZfLH9I2zGpeip7poQbBRwdPKVnEGlXfWxymM5R0pXLPcf/GD0kIPviWH9K5ajmGzwjJ0nB/G/KK70g==}
     engines: {node: '>=18.0.0'}
     peerDependencies:
       dotenv: ^16.4.5
@@ -796,7 +796,7 @@ snapshots:
   '@esbuild/win32-x64@0.27.2':
     optional: true
 
-  '@ganaka/sdk@1.2.0(dotenv@17.2.3)':
+  '@ganaka/sdk@1.5.0(dotenv@17.2.3)':
     dependencies:
       axios: 1.13.2
       cheerio: 1.1.2

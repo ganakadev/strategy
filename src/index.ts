@@ -9,14 +9,21 @@ dayjs.extend(utc);
 dayjs.extend(timezone);
 
 // the time window is assumed to be set in IST
-const tradingWindowStart = "2026-01-02T10:00:00";
-const tradingWindowEnd = "2026-01-02T12:00:00";
+const currenDate = "2026-01-13";
+const tradingWindowStart = `${currenDate}T10:00:00`;
+const tradingWindowEnd = `${currenDate}T10:01:00`;
 
 console.log({ tradingWindowStart });
 console.log({ tradingWindowEnd });
 
 async function main() {
   await ganaka({
+    intervalMinutes: 1,
+    startTime: tradingWindowStart,
+    endTime: tradingWindowEnd,
+    deleteRunAfterCompletion: true,
+    name: "strategy",
+    tags: ["v1"],
     fn: async ({ fetchShortlist, fetchQuote, fetchCandles, placeOrder, currentTimestamp }) => {
       const currentTimestampIST = dayjs
         .tz(currentTimestamp, "Asia/Kolkata")
@@ -56,10 +63,6 @@ async function main() {
 
       return;
     },
-    intervalMinutes: 1,
-    startTime: tradingWindowStart,
-    endTime: tradingWindowEnd,
-    deleteRunAfterCompletion: true,
   });
 }
 
