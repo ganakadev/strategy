@@ -9,7 +9,7 @@
     "lint": "tsc --noEmit"
   },
   "dependencies": {
-    "@ganaka/sdk": "^1.5.0",
+    "@ganaka/sdk": "^1.7.0",
     "axios": "^1.13.2",
     "dayjs": "^1.11.19",
     "lodash": "^4.17.21",
