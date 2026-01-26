@@ -10,7 +10,7 @@
   },
   "dependencies": {
     "@ganaka/sdk": "^1.5.0",
-    "axios": "^1.13.2",
+    "axios": "^1.13.3",
     "dayjs": "^1.11.19",
     "lodash": "^4.17.21",
     "zod": "^4.3.2"
